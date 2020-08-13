@@ -1,0 +1,166 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AssetsPickerViewController (2.4.2):
+    - Device (~> 3.0.3)
+    - Dimmer (~> 2.0)
+    - FadeView (~> 2.0)
+    - PureLayout
+    - SwiftARGB (~> 2.0)
+    - TinyLog (~> 2.0)
+  - Device (3.0.3)
+  - Dimmer (2.0.3):
+    - FadeView (~> 2.0)
+    - PureLayout
+    - TinyLog (~> 2.0)
+    - UIViewKVO (~> 2.0)
+  - DynamicBlurView (2.0.2)
+  - FadeView (2.0.0)
+  - Firebase/Core (5.15.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.4.0)
+  - Firebase/CoreOnly (5.15.0):
+    - FirebaseCore (= 5.1.10)
+  - Firebase/Messaging (5.15.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.2.2)
+  - FirebaseAnalytics (5.4.0):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.3)
+    - GoogleAppMeasurement (= 5.4.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.1.0)
+  - FirebaseCore (5.1.10):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.3.0):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FirebaseMessaging (3.2.2):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Reachability (~> 5.2)
+    - Protobuf (~> 3.1)
+  - GoogleAppMeasurement (5.4.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (5.3.6):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.6)
+  - GoogleUtilities/Logger (5.3.6):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.6):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.6):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.6)"
+  - GoogleUtilities/Reachability (5.3.6):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.6):
+    - GoogleUtilities/Logger
+  - IQKeyboardManagerSwift (6.1.1)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
+  - PopupDialog (0.8.1):
+    - DynamicBlurView (~> 2.0)
+  - Protobuf (3.6.1)
+  - PureLayout (3.0.2)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - Stripe (14.0.0)
+  - SwiftARGB (2.0.0)
+  - TinyLog (2.0.7)
+  - TPKeyboardAvoidingSwift (3.1)
+  - UIViewKVO (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AssetsPickerViewController
+  - Firebase/Core
+  - Firebase/Messaging
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - PopupDialog
+  - SDWebImage (~> 4.0)
+  - Stripe
+  - TPKeyboardAvoidingSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AssetsPickerViewController
+    - Device
+    - Dimmer
+    - DynamicBlurView
+    - FadeView
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - IQKeyboardManagerSwift
+    - nanopb
+    - NVActivityIndicatorView
+    - PopupDialog
+    - Protobuf
+    - PureLayout
+    - SDWebImage
+    - Stripe
+    - SwiftARGB
+    - TinyLog
+    - TPKeyboardAvoidingSwift
+    - UIViewKVO
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AssetsPickerViewController: 997cf978cf13574a4846dae7e9b864a1ec93c77a
+  Device: 9a5264ee4e0f392e7153d2c46b10c8df46b7aad2
+  Dimmer: 9908a0003f4882eca1b2e318e11f82d32280794e
+  DynamicBlurView: aa6db4defc6e537eb86fc5e58dd3991666178399
+  FadeView: 80197da2fbee5382b178127e8c5f988a35eef018
+  Firebase: 8bb9268bff82374f2cbaaabb143e725743c316ae
+  FirebaseAnalytics: c06f9d70577d79074214700a71fd5d39de5550fb
+  FirebaseAnalyticsInterop: e5f21be9af6548372e2f0815834ff909bff395a2
+  FirebaseCore: 35747502d9e8c6ee217385ad04446c7c2aaf9c5c
+  FirebaseInstanceID: e2fa4cb35ef5558c200f7f0ad8a53e212215f93e
+  FirebaseMessaging: b412996f6a09337d232bb3a6676ce4d1f353d024
+  GoogleAppMeasurement: 98b71f5e04142793729a5ef23e5b96651ff4b70f
+  GoogleUtilities: 95996bea7c7d9b8fb811b7507669a4a8762f80c7
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  PopupDialog: 3d4e8e0795c3a614f407d730986c9b9af9781123
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  Stripe: db29ad197c74aca6fb981e4e8355cf7ebd0fca5a
+  SwiftARGB: 8727cfcdcfe8709e707a2391f1d5802a7c40dcad
+  TinyLog: 073a9abfd44a944886d5d07aa49cbba5ef192335
+  TPKeyboardAvoidingSwift: b518d6e0c325d62ef5bddb712f22852b41cd165c
+  UIViewKVO: 091f9e020d69e73c4bf5e5ef61cde7bff1c24bbf
+
+PODFILE CHECKSUM: d228fdef17d5af50c1236b3339b21ddb2018554d
+
+COCOAPODS: 1.6.1
